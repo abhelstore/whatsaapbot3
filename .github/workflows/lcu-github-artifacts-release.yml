@@ -1,17 +1,17 @@
-name: zim-bot/zimbot-v3
+name: abhelteam-bot/abhel-v3
 
 on:
   push:
-    branches: [zim-bot-inc]
+    branches: [abhelteam-bot-inc]
   pull_request:
-    branches: [zim-bot-inc]
+    branches: [abhelteam-bot-inc]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: zim-bot-inc
-  MainBranch: zim-bot-inc
+  Branches: abhelteam-bot-inc
+  MainBranch: abhelteam-bot-inc
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm install
   BuildCommand: npm update 
